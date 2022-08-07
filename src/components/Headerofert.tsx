@@ -56,7 +56,7 @@ export function Headerofert() {
     ]);
   return (
     <Center flexDirection='column'>
-            <Text m={10}>
+            <Text m={10} fontFamily='Heebo' fontWeight={500}>
             NO DIA DOS PAIS DO MERCADO LIVRE VOCÊ APROVEITA MUITO! 💛
             </Text>
             <HStack>
@@ -67,8 +67,8 @@ export function Headerofert() {
                 <Button w='full'  bg='transparent' m={3} borderRadius='100%' _hover={{bg: 'none'}}>
                     <Image src={ofer.imageUrl} w='5rem' />
                 </Button>
-                <Text textAlign='center' fontSize='0.8rem' > {ofer.description} {'\n'} 
-                 <Text>{ofer.title}</Text>
+                <Text textAlign='center' fontSize='0.8rem' fontFamily='Heebo' fontWeight={400}> {ofer.description} {'\n'} 
+                 <Text fontFamily='Heebo' fontWeight={400}>{ofer.title}</Text>
                 </Text>
               </VStack>
             </>

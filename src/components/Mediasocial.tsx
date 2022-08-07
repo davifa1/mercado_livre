@@ -5,7 +5,7 @@ export function Mediasocial() {
     return (
         <VStack m={10}>
             <Center flexDirection='column' mx={20} >
-                <Text>
+                <Text fontFamily='Heebo' fontWeight={400}>
                     SIGA O MERCADO LIVRE E ACOMPANHE AS NOVIDADES 📱
                 </Text>
             </Center>
